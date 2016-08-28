@@ -27,6 +27,9 @@ defmodule GitEcto.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:git_cli, "~> 0.2"}]
+    [
+      {:ecto, "~> 2.0"},
+      {:git_cli, "~> 0.2"}
+    ]
   end
 end
