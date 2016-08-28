@@ -29,7 +29,9 @@ defmodule GitEcto.Mixfile do
   defp deps do
     [
       {:ecto, "~> 2.0"},
-      {:git_cli, "~> 0.2"}
+      {:git_cli, "~> 0.2"},
+      {:poison, "~> 1.5"},
+      {:calendar, "~> 0.16"}
     ]
   end
 end
